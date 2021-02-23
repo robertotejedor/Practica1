@@ -1,0 +1,78 @@
+$ git init
+Initialized empty Git repository in C:/Users/Usuario/Desktop/IS2/Practica1/.git/
+
+Usuario@DESKTOP-GD4P0AT MINGW64 ~/Desktop/IS2/Practica1 (master)
+
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .vs/
+        Practica1.cpp
+        Practica1.sln
+        Practica1.vcxproj
+        Practica1.vcxproj.filters
+        Practica1.vcxproj.user
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+$ git add .
+
+Usuario@DESKTOP-GD4P0AT MINGW64 ~/Desktop/IS2/Practica1 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .vs/Practica1/v16/.suo
+        new file:   .vs/Practica1/v16/Browse.VC.db
+        new file:   Practica1.cpp
+        new file:   Practica1.sln
+        new file:   Practica1.vcxproj
+        new file:   Practica1.vcxproj.filters
+        new file:   Practica1.vcxproj.user
+
+$ git commit -m "Archivos iniciales añadidos al indice del repositorio"
+[master (root-commit) 99e4509] Archivos iniciales añadidos al indice del repositorio
+ 7 files changed, 204 insertions(+)
+ create mode 100644 .vs/Practica1/v16/.suo
+ create mode 100644 .vs/Practica1/v16/Browse.VC.db
+ create mode 100644 Practica1.cpp
+ create mode 100644 Practica1.sln
+ create mode 100644 Practica1.vcxproj
+ create mode 100644 Practica1.vcxproj.filters
+ create mode 100644 Practica1.vcxproj.user
+
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   .vs/Practica1/v16/.suo
+        modified:   .vs/Practica1/v16/Browse.VC.db
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .vs/Practica1/v16/Browse.VC.db-shm
+        .vs/Practica1/v16/Browse.VC.db-wal
+        .vs/Practica1/v16/Browse.VC.opendb
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+
+$ git add .
+
+Usuario@DESKTOP-GD4P0AT MINGW64 ~/Desktop/IS2/Practica1 (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   .gitignore.txt
+        modified:   .vs/Practica1/v16/.suo
+        modified:   .vs/Practica1/v16/Browse.VC.db
+        new file:   practica1.txt
